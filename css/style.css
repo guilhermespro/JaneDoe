@@ -67,7 +67,7 @@ footer p {
 /* banner home */
 
 section#banner {
-  background-image: url('../img/jane.jpg');
+  background-image: url('../img/covid-19.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -127,14 +127,14 @@ main#contact {
 }
 
 /* home v2 */
-section#songs {
+section#news {
   width: 900px;
   max-width: 100%;
   margin: 30px auto;
   padding: 40px 0;
 }
 
-section#songs img {
+section#news img {
   width: 100%;
 }
 
@@ -148,12 +148,12 @@ section#songs img {
 }
 
 
-section#songs ol li {
+section#news ol li {
   padding: 20px 0;
 }
 
-section#songs ol li strong {
-  color: orange;
+section#news ol li strong {
+  color: black;
 }
 
 section#concept{
@@ -255,7 +255,9 @@ form button{
     font-size: 20px;
     padding: 0;
   }
-
+  #exp h2{
+    text-align: left;
+  }
   h2 {
     font-size: 30px;
     text-align: center;
